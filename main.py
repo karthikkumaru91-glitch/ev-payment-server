@@ -19,7 +19,7 @@ app.add_middleware(
 # ========== REPLACE THESE ==========
 RAZORPAY_KEY_ID = "rzp_test_TIV9QzBESbwUEt"
 RAZORPAY_KEY_SECRET = "HOoQtiT2X0GuVAgmBHlvp9G2"
-WEBHOOK_SECRET = "YourWebhookSecret"   # We will set this later
+WEBHOOK_SECRET = "whsec_temp_for_now"   # We will set this later
 # ==================================
 
 client = razorpay.Client(auth=(RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET))
